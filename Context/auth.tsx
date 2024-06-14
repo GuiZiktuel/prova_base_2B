@@ -31,10 +31,10 @@ export const AuthProvider: React.FC = ({ children }) => {
             const token = 'fake-admin-token';
             setCookie(null, 'auth-token', token, {
                 maxAge: 30 * 24 * 60 * 60,
-                path: '/',
+                path: '/Recipes',
             });
             setAuthError(null);
-            router.push('/dashboard'); 
+            router.push('/HomePage'); 
             return;
         }
 
