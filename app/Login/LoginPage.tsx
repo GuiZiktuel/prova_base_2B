@@ -43,4 +43,46 @@ const LoginPage = () => {
     );
 };
 
+const styles = {
+    container: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100vh',
+        backgroundColor: '#f0f0f0',
+    },
+    form: {
+        background: 'white',
+        padding: '20px',
+        borderRadius: '8px',
+        boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
+        width: '100%',
+        maxWidth: '400px',
+    },
+    inputGroup: {
+        marginBottom: '15px',
+    },
+    input: {
+        width: '100%',
+        padding: '8px',
+        boxSizing: 'border-box',
+    },
+    button: {
+        width: '100%',
+        padding: '10px',
+        backgroundColor: '#0070f3',
+        color: 'white',
+        border: 'none',
+        borderRadius: '4px',
+        cursor: 'pointer',
+    },
+    buttonHover: {
+        backgroundColor: '#005bb5',
+    },
+    error: {
+        color: 'red',
+        marginBottom: '15px',
+    },
+};
+
 export default LoginPage;
